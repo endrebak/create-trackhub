@@ -1,0 +1,6 @@
+hub EpiPP
+shortLabel Epi++ data hub
+longLabel Epi++ project hub showing time series RNA-seq and H3K27me3, H3K4me3 and PolII ChIP-seq data from the human HaCaT keratinocye cell line.
+genomesFile genomes.txt
+email pal.satrom@ntnu.no
+descriptionUrl EpiPP.html

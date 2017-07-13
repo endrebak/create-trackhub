@@ -1,0 +1,2293 @@
+track EpiPP
+superTrack on
+group regulation
+shortLabel HaCaT TT timeseries
+longLabel RNAseq and ChIP-seq data for HaCaT cells synchronized by double thymidine block
+
+track forward
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT RNA-seq
+longLabel RNA-seq reads mapping to forward 
+
+track forward_00h_1
+shortLabel forward 00h Exp1
+parent forward on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl RNA-seq/Exp1_0h_forward.bw
+
+track forward_00h_2
+shortLabel forward 00h Exp2
+parent forward on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl RNA-seq/Exp2_0h_forward.bw
+
+track forward_03h_1
+shortLabel forward 03h Exp1
+parent forward on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl RNA-seq/Exp1_3h_forward.bw
+
+track forward_03h_2
+shortLabel forward 03h Exp2
+parent forward on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl RNA-seq/Exp2_3h_forward.bw
+
+track forward_06h_1
+shortLabel forward 06h Exp1
+parent forward on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl RNA-seq/Exp1_6h_forward.bw
+
+track forward_06h_2
+shortLabel forward 06h Exp2
+parent forward on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl RNA-seq/Exp2_6h_forward.bw
+
+track forward_09h_1
+shortLabel forward 09h Exp1
+parent forward on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl RNA-seq/Exp1_9h_forward.bw
+
+track forward_09h_2
+shortLabel forward 09h Exp2
+parent forward on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl RNA-seq/Exp2_9h_forward.bw
+
+track forward_12h_1
+shortLabel forward 12h Exp1
+parent forward on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl RNA-seq/Exp1_12h_forward.bw
+
+track forward_12h_2
+shortLabel forward 12h Exp2
+parent forward on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl RNA-seq/Exp2_12h_forward.bw
+
+track forward_15h_1
+shortLabel forward 15h Exp1
+parent forward on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl RNA-seq/Exp1_15h_forward.bw
+
+track forward_15h_2
+shortLabel forward 15h Exp2
+parent forward on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl RNA-seq/Exp2_15h_forward.bw
+
+track forward_18h_1
+shortLabel forward 18h Exp1
+parent forward on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl RNA-seq/Exp1_18h_forward.bw
+
+track forward_18h_2
+shortLabel forward 18h Exp2
+parent forward on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl RNA-seq/Exp2_18h_forward.bw
+
+track forward_21h_1
+shortLabel forward 21h Exp1
+parent forward on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl RNA-seq/Exp1_21h_forward.bw
+
+track forward_21h_2
+shortLabel forward 21h Exp2
+parent forward on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl RNA-seq/Exp2_21h_forward.bw
+
+track forward_24h_1
+shortLabel forward 24h Exp1
+parent forward on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl RNA-seq/Exp1_24h_forward.bw
+
+track forward_24h_2
+shortLabel forward 24h Exp2
+parent forward on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl RNA-seq/Exp2_24h_forward.bw
+
+track reverse
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT RNA-seq
+longLabel RNA-seq reads mapping to reverse 
+
+track reverse_00h_1
+shortLabel reverse 00h Exp1
+parent reverse on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl RNA-seq/Exp1_0h_reverse.bw
+
+track reverse_00h_2
+shortLabel reverse 00h Exp2
+parent reverse on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl RNA-seq/Exp2_0h_reverse.bw
+
+track reverse_03h_1
+shortLabel reverse 03h Exp1
+parent reverse on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl RNA-seq/Exp1_3h_reverse.bw
+
+track reverse_03h_2
+shortLabel reverse 03h Exp2
+parent reverse on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl RNA-seq/Exp2_3h_reverse.bw
+
+track reverse_06h_1
+shortLabel reverse 06h Exp1
+parent reverse on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl RNA-seq/Exp1_6h_reverse.bw
+
+track reverse_06h_2
+shortLabel reverse 06h Exp2
+parent reverse on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl RNA-seq/Exp2_6h_reverse.bw
+
+track reverse_09h_1
+shortLabel reverse 09h Exp1
+parent reverse on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl RNA-seq/Exp1_9h_reverse.bw
+
+track reverse_09h_2
+shortLabel reverse 09h Exp2
+parent reverse on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl RNA-seq/Exp2_9h_reverse.bw
+
+track reverse_12h_1
+shortLabel reverse 12h Exp1
+parent reverse on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl RNA-seq/Exp1_12h_reverse.bw
+
+track reverse_12h_2
+shortLabel reverse 12h Exp2
+parent reverse on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl RNA-seq/Exp2_12h_reverse.bw
+
+track reverse_15h_1
+shortLabel reverse 15h Exp1
+parent reverse on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl RNA-seq/Exp1_15h_reverse.bw
+
+track reverse_15h_2
+shortLabel reverse 15h Exp2
+parent reverse on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl RNA-seq/Exp2_15h_reverse.bw
+
+track reverse_18h_1
+shortLabel reverse 18h Exp1
+parent reverse on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl RNA-seq/Exp1_18h_reverse.bw
+
+track reverse_18h_2
+shortLabel reverse 18h Exp2
+parent reverse on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl RNA-seq/Exp2_18h_reverse.bw
+
+track reverse_21h_1
+shortLabel reverse 21h Exp1
+parent reverse on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl RNA-seq/Exp1_21h_reverse.bw
+
+track reverse_21h_2
+shortLabel reverse 21h Exp2
+parent reverse on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl RNA-seq/Exp2_21h_reverse.bw
+
+track reverse_24h_1
+shortLabel reverse 24h Exp1
+parent reverse on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl RNA-seq/Exp1_24h_reverse.bw
+
+track reverse_24h_2
+shortLabel reverse 24h Exp2
+parent reverse on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl RNA-seq/Exp2_24h_reverse.bw
+
+track PolII-200bin
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT ChIP-seq
+longLabel ChIP-seq reads mapping to PolII-200bin 
+
+track PolII-200bin_00h_1
+shortLabel PolII-200bin 00h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl PolII-200bin/Exp1_0h_PolII.bw
+
+track PolII-200bin_00h_2
+shortLabel PolII-200bin 00h Exp2
+parent PolII-200bin on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl PolII-200bin/Exp2_0h_PolII.bw
+
+track PolII-200bin_03h_1
+shortLabel PolII-200bin 03h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl PolII-200bin/Exp1_3h_PolII.bw
+
+track PolII-200bin_03h_2
+shortLabel PolII-200bin 03h Exp2
+parent PolII-200bin on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl PolII-200bin/Exp2_3h_PolII.bw
+
+track PolII-200bin_06h_1
+shortLabel PolII-200bin 06h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl PolII-200bin/Exp1_6h_PolII.bw
+
+track PolII-200bin_06h_2
+shortLabel PolII-200bin 06h Exp2
+parent PolII-200bin on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl PolII-200bin/Exp2_6h_PolII.bw
+
+track PolII-200bin_09h_1
+shortLabel PolII-200bin 09h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl PolII-200bin/Exp1_9h_PolII.bw
+
+track PolII-200bin_09h_2
+shortLabel PolII-200bin 09h Exp2
+parent PolII-200bin on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl PolII-200bin/Exp2_9h_PolII.bw
+
+track PolII-200bin_12h_1
+shortLabel PolII-200bin 12h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl PolII-200bin/Exp1_12h_PolII.bw
+
+track PolII-200bin_15h_1
+shortLabel PolII-200bin 15h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl PolII-200bin/Exp1_15h_PolII.bw
+
+track PolII-200bin_15h_2
+shortLabel PolII-200bin 15h Exp2
+parent PolII-200bin on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl PolII-200bin/Exp2_15h_PolII.bw
+
+track PolII-200bin_18h_1
+shortLabel PolII-200bin 18h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl PolII-200bin/Exp1_18h_PolII.bw
+
+track PolII-200bin_18h_2
+shortLabel PolII-200bin 18h Exp2
+parent PolII-200bin on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl PolII-200bin/Exp2_18h_PolII.bw
+
+track PolII-200bin_21h_1
+shortLabel PolII-200bin 21h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl PolII-200bin/Exp1_21h_PolII.bw
+
+track PolII-200bin_21h_2
+shortLabel PolII-200bin 21h Exp2
+parent PolII-200bin on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl PolII-200bin/Exp2_21h_PolII.bw
+
+track PolII-200bin_24h_1
+shortLabel PolII-200bin 24h Exp1
+parent PolII-200bin on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl PolII-200bin/Exp1_24h_PolII.bw
+
+track PolII-200bin_24h_2
+shortLabel PolII-200bin 24h Exp2
+parent PolII-200bin on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl PolII-200bin/Exp2_24h_PolII.bw
+
+track H3K4me3-200bin
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT ChIP-seq
+longLabel ChIP-seq reads mapping to H3K4me3-200bin 
+
+track H3K4me3-200bin_00h_1
+shortLabel H3K4me3-200bin 00h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl H3K4me3-200bin/Exp1_0h_H3K4me3.bw
+
+track H3K4me3-200bin_00h_2
+shortLabel H3K4me3-200bin 00h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl H3K4me3-200bin/Exp2_0h_H3K4me3.bw
+
+track H3K4me3-200bin_03h_1
+shortLabel H3K4me3-200bin 03h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl H3K4me3-200bin/Exp1_3h_H3K4me3.bw
+
+track H3K4me3-200bin_03h_2
+shortLabel H3K4me3-200bin 03h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl H3K4me3-200bin/Exp2_3h_H3K4me3.bw
+
+track H3K4me3-200bin_06h_1
+shortLabel H3K4me3-200bin 06h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl H3K4me3-200bin/Exp1_6h_H3K4me3.bw
+
+track H3K4me3-200bin_06h_2
+shortLabel H3K4me3-200bin 06h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl H3K4me3-200bin/Exp2_6h_H3K4me3.bw
+
+track H3K4me3-200bin_09h_1
+shortLabel H3K4me3-200bin 09h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl H3K4me3-200bin/Exp1_9h_H3K4me3.bw
+
+track H3K4me3-200bin_09h_2
+shortLabel H3K4me3-200bin 09h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl H3K4me3-200bin/Exp2_9h_H3K4me3.bw
+
+track H3K4me3-200bin_12h_1
+shortLabel H3K4me3-200bin 12h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl H3K4me3-200bin/Exp1_12h_H3K4me3.bw
+
+track H3K4me3-200bin_12h_2
+shortLabel H3K4me3-200bin 12h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl H3K4me3-200bin/Exp2_12h_H3K4me3.bw
+
+track H3K4me3-200bin_15h_1
+shortLabel H3K4me3-200bin 15h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl H3K4me3-200bin/Exp1_15h_H3K4me3.bw
+
+track H3K4me3-200bin_15h_2
+shortLabel H3K4me3-200bin 15h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl H3K4me3-200bin/Exp2_15h_H3K4me3.bw
+
+track H3K4me3-200bin_18h_1
+shortLabel H3K4me3-200bin 18h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl H3K4me3-200bin/Exp1_18h_H3K4me3.bw
+
+track H3K4me3-200bin_18h_2
+shortLabel H3K4me3-200bin 18h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl H3K4me3-200bin/Exp2_18h_H3K4me3.bw
+
+track H3K4me3-200bin_21h_1
+shortLabel H3K4me3-200bin 21h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl H3K4me3-200bin/Exp1_21h_H3K4me3.bw
+
+track H3K4me3-200bin_21h_2
+shortLabel H3K4me3-200bin 21h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl H3K4me3-200bin/Exp2_21h_H3K4me3.bw
+
+track H3K4me3-200bin_24h_1
+shortLabel H3K4me3-200bin 24h Exp1
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl H3K4me3-200bin/Exp1_24h_H3K4me3.bw
+
+track H3K4me3-200bin_24h_2
+shortLabel H3K4me3-200bin 24h Exp2
+parent H3K4me3-200bin on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl H3K4me3-200bin/Exp2_24h_H3K4me3.bw
+
+track H3K27me3-200bin
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT ChIP-seq
+longLabel ChIP-seq reads mapping to H3K27me3-200bin 
+
+track H3K27me3-200bin_00h_1
+shortLabel H3K27me3-200bin 00h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl H3K27me3-200bin/Exp1_0h_H3K27me3.bw
+
+track H3K27me3-200bin_00h_2
+shortLabel H3K27me3-200bin 00h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl H3K27me3-200bin/Exp2_0h_H3K27me3.bw
+
+track H3K27me3-200bin_03h_1
+shortLabel H3K27me3-200bin 03h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl H3K27me3-200bin/Exp1_3h_H3K27me3.bw
+
+track H3K27me3-200bin_03h_2
+shortLabel H3K27me3-200bin 03h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl H3K27me3-200bin/Exp2_3h_H3K27me3.bw
+
+track H3K27me3-200bin_06h_1
+shortLabel H3K27me3-200bin 06h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl H3K27me3-200bin/Exp1_6h_H3K27me3.bw
+
+track H3K27me3-200bin_06h_2
+shortLabel H3K27me3-200bin 06h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl H3K27me3-200bin/Exp2_6h_H3K27me3.bw
+
+track H3K27me3-200bin_09h_1
+shortLabel H3K27me3-200bin 09h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl H3K27me3-200bin/Exp1_9h_H3K27me3.bw
+
+track H3K27me3-200bin_09h_2
+shortLabel H3K27me3-200bin 09h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl H3K27me3-200bin/Exp2_9h_H3K27me3.bw
+
+track H3K27me3-200bin_12h_1
+shortLabel H3K27me3-200bin 12h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl H3K27me3-200bin/Exp1_12h_H3K27me3.bw
+
+track H3K27me3-200bin_12h_2
+shortLabel H3K27me3-200bin 12h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl H3K27me3-200bin/Exp2_12h_H3K27me3.bw
+
+track H3K27me3-200bin_15h_1
+shortLabel H3K27me3-200bin 15h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl H3K27me3-200bin/Exp1_15h_H3K27me3.bw
+
+track H3K27me3-200bin_15h_2
+shortLabel H3K27me3-200bin 15h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl H3K27me3-200bin/Exp2_15h_H3K27me3.bw
+
+track H3K27me3-200bin_18h_1
+shortLabel H3K27me3-200bin 18h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl H3K27me3-200bin/Exp1_18h_H3K27me3.bw
+
+track H3K27me3-200bin_18h_2
+shortLabel H3K27me3-200bin 18h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl H3K27me3-200bin/Exp2_18h_H3K27me3.bw
+
+track H3K27me3-200bin_21h_1
+shortLabel H3K27me3-200bin 21h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl H3K27me3-200bin/Exp1_21h_H3K27me3.bw
+
+track H3K27me3-200bin_21h_2
+shortLabel H3K27me3-200bin 21h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl H3K27me3-200bin/Exp2_21h_H3K27me3.bw
+
+track H3K27me3-200bin_24h_1
+shortLabel H3K27me3-200bin 24h Exp1
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl H3K27me3-200bin/Exp1_24h_H3K27me3.bw
+
+track H3K27me3-200bin_24h_2
+shortLabel H3K27me3-200bin 24h Exp2
+parent H3K27me3-200bin on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl H3K27me3-200bin/Exp2_24h_H3K27me3.bw
+
+track Input-200bin
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT ChIP-seq
+longLabel ChIP-seq reads mapping to Input-200bin 
+
+track Input-200bin_00h_1
+shortLabel Input-200bin 00h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl Input-200bin/Exp1_0h_Input.bw
+
+track Input-200bin_00h_2
+shortLabel Input-200bin 00h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl Input-200bin/Exp2_0h_Input.bw
+
+track Input-200bin_03h_1
+shortLabel Input-200bin 03h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl Input-200bin/Exp1_3h_Input.bw
+
+track Input-200bin_03h_2
+shortLabel Input-200bin 03h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl Input-200bin/Exp2_3h_Input.bw
+
+track Input-200bin_06h_1
+shortLabel Input-200bin 06h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl Input-200bin/Exp1_6h_Input.bw
+
+track Input-200bin_06h_2
+shortLabel Input-200bin 06h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl Input-200bin/Exp2_6h_Input.bw
+
+track Input-200bin_09h_1
+shortLabel Input-200bin 09h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl Input-200bin/Exp1_9h_Input.bw
+
+track Input-200bin_09h_2
+shortLabel Input-200bin 09h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl Input-200bin/Exp2_9h_Input.bw
+
+track Input-200bin_12h_1
+shortLabel Input-200bin 12h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl Input-200bin/Exp1_12h_Input.bw
+
+track Input-200bin_12h_2
+shortLabel Input-200bin 12h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl Input-200bin/Exp2_12h_Input.bw
+
+track Input-200bin_15h_1
+shortLabel Input-200bin 15h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl Input-200bin/Exp1_15h_Input.bw
+
+track Input-200bin_15h_2
+shortLabel Input-200bin 15h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl Input-200bin/Exp2_15h_Input.bw
+
+track Input-200bin_18h_1
+shortLabel Input-200bin 18h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl Input-200bin/Exp1_18h_Input.bw
+
+track Input-200bin_18h_2
+shortLabel Input-200bin 18h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl Input-200bin/Exp2_18h_Input.bw
+
+track Input-200bin_21h_1
+shortLabel Input-200bin 21h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl Input-200bin/Exp1_21h_Input.bw
+
+track Input-200bin_21h_2
+shortLabel Input-200bin 21h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl Input-200bin/Exp2_21h_Input.bw
+
+track Input-200bin_24h_1
+shortLabel Input-200bin 24h Exp1
+parent Input-200bin on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl Input-200bin/Exp1_24h_Input.bw
+
+track Input-200bin_24h_2
+shortLabel Input-200bin 24h Exp2
+parent Input-200bin on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl Input-200bin/Exp2_24h_Input.bw
+
+track PolII
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT ChIP-seq
+longLabel ChIP-seq reads mapping to PolII 
+
+track PolII_00h_1
+shortLabel PolII 00h Exp1
+parent PolII on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl PolII/PolII_Exp1_0h.bw
+
+track PolII_00h_2
+shortLabel PolII 00h Exp2
+parent PolII on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl PolII/PolII_Exp2_0h.bw
+
+track PolII_03h_1
+shortLabel PolII 03h Exp1
+parent PolII on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl PolII/PolII_Exp1_3h.bw
+
+track PolII_03h_2
+shortLabel PolII 03h Exp2
+parent PolII on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl PolII/PolII_Exp2_3h.bw
+
+track PolII_06h_1
+shortLabel PolII 06h Exp1
+parent PolII on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl PolII/PolII_Exp1_6h.bw
+
+track PolII_06h_2
+shortLabel PolII 06h Exp2
+parent PolII on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl PolII/PolII_Exp2_6h.bw
+
+track PolII_09h_1
+shortLabel PolII 09h Exp1
+parent PolII on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl PolII/PolII_Exp1_9h.bw
+
+track PolII_09h_2
+shortLabel PolII 09h Exp2
+parent PolII on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl PolII/PolII_Exp2_9h.bw
+
+track PolII_12h_1
+shortLabel PolII 12h Exp1
+parent PolII on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl PolII/PolII_Exp1_12h.bw
+
+track PolII_12h_2
+shortLabel PolII 12h Exp2
+parent PolII on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl PolII/PolII_Exp2_12h.bw
+
+track PolII_15h_1
+shortLabel PolII 15h Exp1
+parent PolII on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl PolII/PolII_Exp1_15h.bw
+
+track PolII_15h_2
+shortLabel PolII 15h Exp2
+parent PolII on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl PolII/PolII_Exp2_15h.bw
+
+track PolII_18h_1
+shortLabel PolII 18h Exp1
+parent PolII on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl PolII/PolII_Exp1_18h.bw
+
+track PolII_18h_2
+shortLabel PolII 18h Exp2
+parent PolII on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl PolII/PolII_Exp2_18h.bw
+
+track PolII_21h_1
+shortLabel PolII 21h Exp1
+parent PolII on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl PolII/PolII_Exp1_21h.bw
+
+track PolII_21h_2
+shortLabel PolII 21h Exp2
+parent PolII on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl PolII/PolII_Exp2_21h.bw
+
+track PolII_24h_1
+shortLabel PolII 24h Exp1
+parent PolII on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl PolII/PolII_Exp1_24h.bw
+
+track PolII_24h_2
+shortLabel PolII 24h Exp2
+parent PolII on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl PolII/PolII_Exp2_24h.bw
+
+track H3K4me3
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT ChIP-seq
+longLabel ChIP-seq reads mapping to H3K4me3 
+
+track H3K4me3_00h_1
+shortLabel H3K4me3 00h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl H3K4me3/H3K4me3_Exp1_0h.bw
+
+track H3K4me3_00h_2
+shortLabel H3K4me3 00h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl H3K4me3/H3K4me3_Exp2_0h.bw
+
+track H3K4me3_03h_1
+shortLabel H3K4me3 03h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl H3K4me3/H3K4me3_Exp1_3h.bw
+
+track H3K4me3_03h_2
+shortLabel H3K4me3 03h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl H3K4me3/H3K4me3_Exp2_3h.bw
+
+track H3K4me3_06h_1
+shortLabel H3K4me3 06h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl H3K4me3/H3K4me3_Exp1_6h.bw
+
+track H3K4me3_06h_2
+shortLabel H3K4me3 06h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl H3K4me3/H3K4me3_Exp2_6h.bw
+
+track H3K4me3_09h_1
+shortLabel H3K4me3 09h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl H3K4me3/H3K4me3_Exp1_9h.bw
+
+track H3K4me3_09h_2
+shortLabel H3K4me3 09h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl H3K4me3/H3K4me3_Exp2_9h.bw
+
+track H3K4me3_12h_1
+shortLabel H3K4me3 12h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl H3K4me3/H3K4me3_Exp1_12h.bw
+
+track H3K4me3_12h_2
+shortLabel H3K4me3 12h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl H3K4me3/H3K4me3_Exp2_12h.bw
+
+track H3K4me3_15h_1
+shortLabel H3K4me3 15h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl H3K4me3/H3K4me3_Exp1_15h.bw
+
+track H3K4me3_15h_2
+shortLabel H3K4me3 15h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl H3K4me3/H3K4me3_Exp2_15h.bw
+
+track H3K4me3_18h_1
+shortLabel H3K4me3 18h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl H3K4me3/H3K4me3_Exp1_18h.bw
+
+track H3K4me3_18h_2
+shortLabel H3K4me3 18h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl H3K4me3/H3K4me3_Exp2_18h.bw
+
+track H3K4me3_21h_1
+shortLabel H3K4me3 21h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl H3K4me3/H3K4me3_Exp1_21h.bw
+
+track H3K4me3_21h_2
+shortLabel H3K4me3 21h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl H3K4me3/H3K4me3_Exp2_21h.bw
+
+track H3K4me3_24h_1
+shortLabel H3K4me3 24h Exp1
+parent H3K4me3 on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl H3K4me3/H3K4me3_Exp1_24h.bw
+
+track H3K4me3_24h_2
+shortLabel H3K4me3 24h Exp2
+parent H3K4me3 on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl H3K4me3/H3K4me3_Exp2_24h.bw
+
+track H3K27me3
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT ChIP-seq
+longLabel ChIP-seq reads mapping to H3K27me3 
+
+track H3K27me3_00h_1
+shortLabel H3K27me3 00h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl H3K27me3/H3K27me3_Exp1_0h.bw
+
+track H3K27me3_00h_2
+shortLabel H3K27me3 00h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl H3K27me3/H3K27me3_Exp2_0h.bw
+
+track H3K27me3_03h_1
+shortLabel H3K27me3 03h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl H3K27me3/H3K27me3_Exp1_3h.bw
+
+track H3K27me3_03h_2
+shortLabel H3K27me3 03h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl H3K27me3/H3K27me3_Exp2_3h.bw
+
+track H3K27me3_06h_1
+shortLabel H3K27me3 06h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl H3K27me3/H3K27me3_Exp1_6h.bw
+
+track H3K27me3_06h_2
+shortLabel H3K27me3 06h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl H3K27me3/H3K27me3_Exp2_6h.bw
+
+track H3K27me3_09h_1
+shortLabel H3K27me3 09h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl H3K27me3/H3K27me3_Exp1_9h.bw
+
+track H3K27me3_09h_2
+shortLabel H3K27me3 09h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl H3K27me3/H3K27me3_Exp2_9h.bw
+
+track H3K27me3_12h_1
+shortLabel H3K27me3 12h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl H3K27me3/H3K27me3_Exp1_12h.bw
+
+track H3K27me3_12h_2
+shortLabel H3K27me3 12h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl H3K27me3/H3K27me3_Exp2_12h.bw
+
+track H3K27me3_15h_1
+shortLabel H3K27me3 15h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl H3K27me3/H3K27me3_Exp1_15h.bw
+
+track H3K27me3_15h_2
+shortLabel H3K27me3 15h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl H3K27me3/H3K27me3_Exp2_15h.bw
+
+track H3K27me3_18h_1
+shortLabel H3K27me3 18h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl H3K27me3/H3K27me3_Exp1_18h.bw
+
+track H3K27me3_18h_2
+shortLabel H3K27me3 18h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl H3K27me3/H3K27me3_Exp2_18h.bw
+
+track H3K27me3_21h_1
+shortLabel H3K27me3 21h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl H3K27me3/H3K27me3_Exp1_21h.bw
+
+track H3K27me3_21h_2
+shortLabel H3K27me3 21h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl H3K27me3/H3K27me3_Exp2_21h.bw
+
+track H3K27me3_24h_1
+shortLabel H3K27me3 24h Exp1
+parent H3K27me3 on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl H3K27me3/H3K27me3_Exp1_24h.bw
+
+track H3K27me3_24h_2
+shortLabel H3K27me3 24h Exp2
+parent H3K27me3 on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl H3K27me3/H3K27me3_Exp2_24h.bw
+
+track Input
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel HaCaT TT ChIP-seq
+longLabel ChIP-seq reads mapping to Input 
+
+track Input_00h_1
+shortLabel Input 00h Exp1
+parent Input on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl Input/Input_Exp1_0h.bw
+
+track Input_00h_2
+shortLabel Input 00h Exp2
+parent Input on
+type bigWig 0 1000
+color 228,26,28
+bigDataUrl Input/Input_Exp2_0h.bw
+
+track Input_03h_1
+shortLabel Input 03h Exp1
+parent Input on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl Input/Input_Exp1_3h.bw
+
+track Input_03h_2
+shortLabel Input 03h Exp2
+parent Input on
+type bigWig 0 1000
+color 55,126,184
+bigDataUrl Input/Input_Exp2_3h.bw
+
+track Input_06h_1
+shortLabel Input 06h Exp1
+parent Input on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl Input/Input_Exp1_6h.bw
+
+track Input_06h_2
+shortLabel Input 06h Exp2
+parent Input on
+type bigWig 0 1000
+color 77,175,74
+bigDataUrl Input/Input_Exp2_6h.bw
+
+track Input_09h_1
+shortLabel Input 09h Exp1
+parent Input on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl Input/Input_Exp1_9h.bw
+
+track Input_09h_2
+shortLabel Input 09h Exp2
+parent Input on
+type bigWig 0 1000
+color 152,78,163
+bigDataUrl Input/Input_Exp2_9h.bw
+
+track Input_12h_1
+shortLabel Input 12h Exp1
+parent Input on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl Input/Input_Exp1_12h.bw
+
+track Input_12h_2
+shortLabel Input 12h Exp2
+parent Input on
+type bigWig 0 1000
+color 255,127,0
+bigDataUrl Input/Input_Exp2_12h.bw
+
+track Input_15h_1
+shortLabel Input 15h Exp1
+parent Input on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl Input/Input_Exp1_15h.bw
+
+track Input_15h_2
+shortLabel Input 15h Exp2
+parent Input on
+type bigWig 0 1000
+color 255,255,51
+bigDataUrl Input/Input_Exp2_15h.bw
+
+track Input_18h_1
+shortLabel Input 18h Exp1
+parent Input on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl Input/Input_Exp1_18h.bw
+
+track Input_18h_2
+shortLabel Input 18h Exp2
+parent Input on
+type bigWig 0 1000
+color 166,86,40
+bigDataUrl Input/Input_Exp2_18h.bw
+
+track Input_21h_1
+shortLabel Input 21h Exp1
+parent Input on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl Input/Input_Exp1_21h.bw
+
+track Input_21h_2
+shortLabel Input 21h Exp2
+parent Input on
+type bigWig 0 1000
+color 247,129,191
+bigDataUrl Input/Input_Exp2_21h.bw
+
+track Input_24h_1
+shortLabel Input 24h Exp1
+parent Input on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl Input/Input_Exp1_24h.bw
+
+track Input_24h_2
+shortLabel Input 24h Exp2
+parent Input on
+type bigWig 0 1000
+color 153,153,153
+bigDataUrl Input/Input_Exp2_24h.bw
+
+track regions
+compositeTrack on
+parent EpiPP on
+visibility dense
+subGroup1 ab Antibody    H3K4me3=H3K4me3    H3K27me3=H3K27me3    PolII=PolII
+subGroup2 time Time    00h=00h 03h=03h 06h=06h 09h=09h 12h=12h 15h=15h 18h=18h 21h=21h 24h=24h
+dimensions dimX=ab dimY=time
+sortOrder ab=+ time=+
+type bed 5
+
+track PolII_00h_regions
+shortLabel PolII 00h regions
+longLabel PolII 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=00h
+bigDataUrl regions/0h_PolII.bed.sorted.bigBed
+
+track PolII_03h_regions
+shortLabel PolII 03h regions
+longLabel PolII 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=03h
+bigDataUrl regions/3h_PolII.bed.sorted.bigBed
+
+track PolII_06h_regions
+shortLabel PolII 06h regions
+longLabel PolII 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=06h
+bigDataUrl regions/6h_PolII.bed.sorted.bigBed
+
+track PolII_09h_regions
+shortLabel PolII 09h regions
+longLabel PolII 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=09h
+bigDataUrl regions/9h_PolII.bed.sorted.bigBed
+
+track PolII_12h_regions
+shortLabel PolII 12h regions
+longLabel PolII 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=12h
+bigDataUrl regions/12h_PolII.bed.sorted.bigBed
+
+track PolII_15h_regions
+shortLabel PolII 15h regions
+longLabel PolII 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=15h
+bigDataUrl regions/15h_PolII.bed.sorted.bigBed
+
+track PolII_18h_regions
+shortLabel PolII 18h regions
+longLabel PolII 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=18h
+bigDataUrl regions/18h_PolII.bed.sorted.bigBed
+
+track PolII_21h_regions
+shortLabel PolII 21h regions
+longLabel PolII 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=21h
+bigDataUrl regions/21h_PolII.bed.sorted.bigBed
+
+track PolII_24h_regions
+shortLabel PolII 24h regions
+longLabel PolII 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=24h
+bigDataUrl regions/24h_PolII.bed.sorted.bigBed
+
+track H3K4me3_00h_regions
+shortLabel H3K4me3 00h regions
+longLabel H3K4me3 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=00h
+bigDataUrl regions/0h_H3K4me3.bed.sorted.bigBed
+
+track H3K4me3_03h_regions
+shortLabel H3K4me3 03h regions
+longLabel H3K4me3 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=03h
+bigDataUrl regions/3h_H3K4me3.bed.sorted.bigBed
+
+track H3K4me3_06h_regions
+shortLabel H3K4me3 06h regions
+longLabel H3K4me3 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=06h
+bigDataUrl regions/6h_H3K4me3.bed.sorted.bigBed
+
+track H3K4me3_09h_regions
+shortLabel H3K4me3 09h regions
+longLabel H3K4me3 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=09h
+bigDataUrl regions/9h_H3K4me3.bed.sorted.bigBed
+
+track H3K4me3_12h_regions
+shortLabel H3K4me3 12h regions
+longLabel H3K4me3 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=12h
+bigDataUrl regions/12h_H3K4me3.bed.sorted.bigBed
+
+track H3K4me3_15h_regions
+shortLabel H3K4me3 15h regions
+longLabel H3K4me3 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=15h
+bigDataUrl regions/15h_H3K4me3.bed.sorted.bigBed
+
+track H3K4me3_18h_regions
+shortLabel H3K4me3 18h regions
+longLabel H3K4me3 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=18h
+bigDataUrl regions/18h_H3K4me3.bed.sorted.bigBed
+
+track H3K4me3_21h_regions
+shortLabel H3K4me3 21h regions
+longLabel H3K4me3 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=21h
+bigDataUrl regions/21h_H3K4me3.bed.sorted.bigBed
+
+track H3K4me3_24h_regions
+shortLabel H3K4me3 24h regions
+longLabel H3K4me3 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=24h
+bigDataUrl regions/24h_H3K4me3.bed.sorted.bigBed
+
+track H3K27me3_00h_regions
+shortLabel H3K27me3 00h regions
+longLabel H3K27me3 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=00h
+bigDataUrl regions/0h_H3K27me3.bed.sorted.bigBed
+
+track H3K27me3_03h_regions
+shortLabel H3K27me3 03h regions
+longLabel H3K27me3 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=03h
+bigDataUrl regions/3h_H3K27me3.bed.sorted.bigBed
+
+track H3K27me3_06h_regions
+shortLabel H3K27me3 06h regions
+longLabel H3K27me3 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=06h
+bigDataUrl regions/6h_H3K27me3.bed.sorted.bigBed
+
+track H3K27me3_09h_regions
+shortLabel H3K27me3 09h regions
+longLabel H3K27me3 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=09h
+bigDataUrl regions/9h_H3K27me3.bed.sorted.bigBed
+
+track H3K27me3_12h_regions
+shortLabel H3K27me3 12h regions
+longLabel H3K27me3 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=12h
+bigDataUrl regions/12h_H3K27me3.bed.sorted.bigBed
+
+track H3K27me3_15h_regions
+shortLabel H3K27me3 15h regions
+longLabel H3K27me3 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=15h
+bigDataUrl regions/15h_H3K27me3.bed.sorted.bigBed
+
+track H3K27me3_18h_regions
+shortLabel H3K27me3 18h regions
+longLabel H3K27me3 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=18h
+bigDataUrl regions/18h_H3K27me3.bed.sorted.bigBed
+
+track H3K27me3_21h_regions
+shortLabel H3K27me3 21h regions
+longLabel H3K27me3 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=21h
+bigDataUrl regions/21h_H3K27me3.bed.sorted.bigBed
+
+track H3K27me3_24h_regions
+shortLabel H3K27me3 24h regions
+longLabel H3K27me3 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=24h
+bigDataUrl regions/24h_H3K27me3.bed.sorted.bigBed
+
+track PolII_00h_Exp1_regions-single
+shortLabel PolII 00h regions
+longLabel PolII 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=00h
+bigDataUrl regions-single/Exp1_0h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_00h_Exp2_regions-single
+shortLabel PolII 00h regions
+longLabel PolII 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=00h
+bigDataUrl regions-single/Exp2_0h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_03h_Exp1_regions-single
+shortLabel PolII 03h regions
+longLabel PolII 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=03h
+bigDataUrl regions-single/Exp1_3h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_03h_Exp2_regions-single
+shortLabel PolII 03h regions
+longLabel PolII 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=03h
+bigDataUrl regions-single/Exp2_3h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_06h_Exp1_regions-single
+shortLabel PolII 06h regions
+longLabel PolII 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=06h
+bigDataUrl regions-single/Exp1_6h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_06h_Exp2_regions-single
+shortLabel PolII 06h regions
+longLabel PolII 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=06h
+bigDataUrl regions-single/Exp2_6h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_09h_Exp1_regions-single
+shortLabel PolII 09h regions
+longLabel PolII 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=09h
+bigDataUrl regions-single/Exp1_9h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_09h_Exp2_regions-single
+shortLabel PolII 09h regions
+longLabel PolII 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=09h
+bigDataUrl regions-single/Exp2_9h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_12h_Exp1_regions-single
+shortLabel PolII 12h regions
+longLabel PolII 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=12h
+bigDataUrl regions-single/Exp1_12h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_12h_Exp2_regions-single
+shortLabel PolII 12h regions
+longLabel PolII 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=12h
+bigDataUrl regions-single/Exp2_12h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_15h_Exp1_regions-single
+shortLabel PolII 15h regions
+longLabel PolII 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=15h
+bigDataUrl regions-single/Exp1_15h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_15h_Exp2_regions-single
+shortLabel PolII 15h regions
+longLabel PolII 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=15h
+bigDataUrl regions-single/Exp2_15h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_18h_Exp1_regions-single
+shortLabel PolII 18h regions
+longLabel PolII 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=18h
+bigDataUrl regions-single/Exp1_18h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_18h_Exp2_regions-single
+shortLabel PolII 18h regions
+longLabel PolII 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=18h
+bigDataUrl regions-single/Exp2_18h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_21h_Exp1_regions-single
+shortLabel PolII 21h regions
+longLabel PolII 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=21h
+bigDataUrl regions-single/Exp1_21h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_21h_Exp2_regions-single
+shortLabel PolII 21h regions
+longLabel PolII 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=21h
+bigDataUrl regions-single/Exp2_21h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_24h_Exp1_regions-single
+shortLabel PolII 24h regions
+longLabel PolII 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=24h
+bigDataUrl regions-single/Exp1_24h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track PolII_24h_Exp2_regions-single
+shortLabel PolII 24h regions
+longLabel PolII 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=PolII time=24h
+bigDataUrl regions-single/Exp2_24h_PolII_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_00h_Exp1_regions-single
+shortLabel H3K4me3 00h regions
+longLabel H3K4me3 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=00h
+bigDataUrl regions-single/Exp1_0h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_00h_Exp2_regions-single
+shortLabel H3K4me3 00h regions
+longLabel H3K4me3 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=00h
+bigDataUrl regions-single/Exp2_0h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_03h_Exp1_regions-single
+shortLabel H3K4me3 03h regions
+longLabel H3K4me3 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=03h
+bigDataUrl regions-single/Exp1_3h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_03h_Exp2_regions-single
+shortLabel H3K4me3 03h regions
+longLabel H3K4me3 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=03h
+bigDataUrl regions-single/Exp2_3h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_06h_Exp1_regions-single
+shortLabel H3K4me3 06h regions
+longLabel H3K4me3 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=06h
+bigDataUrl regions-single/Exp1_6h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_06h_Exp2_regions-single
+shortLabel H3K4me3 06h regions
+longLabel H3K4me3 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=06h
+bigDataUrl regions-single/Exp2_6h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_09h_Exp1_regions-single
+shortLabel H3K4me3 09h regions
+longLabel H3K4me3 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=09h
+bigDataUrl regions-single/Exp1_9h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_09h_Exp2_regions-single
+shortLabel H3K4me3 09h regions
+longLabel H3K4me3 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=09h
+bigDataUrl regions-single/Exp2_9h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_12h_Exp1_regions-single
+shortLabel H3K4me3 12h regions
+longLabel H3K4me3 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=12h
+bigDataUrl regions-single/Exp1_12h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_12h_Exp2_regions-single
+shortLabel H3K4me3 12h regions
+longLabel H3K4me3 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=12h
+bigDataUrl regions-single/Exp2_12h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_15h_Exp1_regions-single
+shortLabel H3K4me3 15h regions
+longLabel H3K4me3 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=15h
+bigDataUrl regions-single/Exp1_15h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_15h_Exp2_regions-single
+shortLabel H3K4me3 15h regions
+longLabel H3K4me3 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=15h
+bigDataUrl regions-single/Exp2_15h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_18h_Exp1_regions-single
+shortLabel H3K4me3 18h regions
+longLabel H3K4me3 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=18h
+bigDataUrl regions-single/Exp1_18h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_18h_Exp2_regions-single
+shortLabel H3K4me3 18h regions
+longLabel H3K4me3 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=18h
+bigDataUrl regions-single/Exp2_18h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_21h_Exp1_regions-single
+shortLabel H3K4me3 21h regions
+longLabel H3K4me3 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=21h
+bigDataUrl regions-single/Exp1_21h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_21h_Exp2_regions-single
+shortLabel H3K4me3 21h regions
+longLabel H3K4me3 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=21h
+bigDataUrl regions-single/Exp2_21h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_24h_Exp1_regions-single
+shortLabel H3K4me3 24h regions
+longLabel H3K4me3 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=24h
+bigDataUrl regions-single/Exp1_24h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K4me3_24h_Exp2_regions-single
+shortLabel H3K4me3 24h regions
+longLabel H3K4me3 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K4me3 time=24h
+bigDataUrl regions-single/Exp2_24h_H3K4me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_00h_Exp1_regions-single
+shortLabel H3K27me3 00h regions
+longLabel H3K27me3 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=00h
+bigDataUrl regions-single/Exp1_0h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_00h_Exp2_regions-single
+shortLabel H3K27me3 00h regions
+longLabel H3K27me3 00h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=00h
+bigDataUrl regions-single/Exp2_0h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_03h_Exp1_regions-single
+shortLabel H3K27me3 03h regions
+longLabel H3K27me3 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=03h
+bigDataUrl regions-single/Exp1_3h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_03h_Exp2_regions-single
+shortLabel H3K27me3 03h regions
+longLabel H3K27me3 03h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=03h
+bigDataUrl regions-single/Exp2_3h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_06h_Exp1_regions-single
+shortLabel H3K27me3 06h regions
+longLabel H3K27me3 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=06h
+bigDataUrl regions-single/Exp1_6h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_06h_Exp2_regions-single
+shortLabel H3K27me3 06h regions
+longLabel H3K27me3 06h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=06h
+bigDataUrl regions-single/Exp2_6h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_09h_Exp1_regions-single
+shortLabel H3K27me3 09h regions
+longLabel H3K27me3 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=09h
+bigDataUrl regions-single/Exp1_9h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_09h_Exp2_regions-single
+shortLabel H3K27me3 09h regions
+longLabel H3K27me3 09h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=09h
+bigDataUrl regions-single/Exp2_9h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_12h_Exp1_regions-single
+shortLabel H3K27me3 12h regions
+longLabel H3K27me3 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=12h
+bigDataUrl regions-single/Exp1_12h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_12h_Exp2_regions-single
+shortLabel H3K27me3 12h regions
+longLabel H3K27me3 12h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=12h
+bigDataUrl regions-single/Exp2_12h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_15h_Exp1_regions-single
+shortLabel H3K27me3 15h regions
+longLabel H3K27me3 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=15h
+bigDataUrl regions-single/Exp1_15h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_15h_Exp2_regions-single
+shortLabel H3K27me3 15h regions
+longLabel H3K27me3 15h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=15h
+bigDataUrl regions-single/Exp2_15h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_18h_Exp1_regions-single
+shortLabel H3K27me3 18h regions
+longLabel H3K27me3 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=18h
+bigDataUrl regions-single/Exp1_18h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_18h_Exp2_regions-single
+shortLabel H3K27me3 18h regions
+longLabel H3K27me3 18h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=18h
+bigDataUrl regions-single/Exp2_18h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_21h_Exp1_regions-single
+shortLabel H3K27me3 21h regions
+longLabel H3K27me3 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=21h
+bigDataUrl regions-single/Exp1_21h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_21h_Exp2_regions-single
+shortLabel H3K27me3 21h regions
+longLabel H3K27me3 21h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=21h
+bigDataUrl regions-single/Exp2_21h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_24h_Exp1_regions-single
+shortLabel H3K27me3 24h regions
+longLabel H3K27me3 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=24h
+bigDataUrl regions-single/Exp1_24h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track H3K27me3_24h_Exp2_regions-single
+shortLabel H3K27me3 24h regions
+longLabel H3K27me3 24h regions
+parent regions on
+type bigBed 5 .
+spectrum on
+subGroups ab=H3K27me3 time=24h
+bigDataUrl regions-single/Exp2_24h_H3K27me3_peaks.narrowPeak.sorted.bigBed
+
+track public-plus
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel Public RNA-seq
+longLabel Public RNA-seq reads mapping to plus 
+
+track GM12878_RNA_4_plus.bw
+shortLabel GM12878
+parent public-plus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/GM12878_RNA_4_plus.bw
+
+track KeratinocyteCytosolic_RNA_4_plus.bw
+shortLabel KeratinocyteCytosolic
+parent public-plus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/KeratinocyteCytosolic_RNA_4_plus.bw
+
+track GM12878_RNA_1_plus.bw
+shortLabel GM12878
+parent public-plus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/GM12878_RNA_1_plus.bw
+
+track KeratinocyteNuclear_RNA_3_plus.bw
+shortLabel KeratinocyteNuclear
+parent public-plus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/KeratinocyteNuclear_RNA_3_plus.bw
+
+track GM12878_RNA_3_plus.bw
+shortLabel GM12878
+parent public-plus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/GM12878_RNA_3_plus.bw
+
+track KeratinocyteCytosolic_RNA_3_plus.bw
+shortLabel KeratinocyteCytosolic
+parent public-plus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/KeratinocyteCytosolic_RNA_3_plus.bw
+
+track KeratinocyteNuclear_RNA_4_plus.bw
+shortLabel KeratinocyteNuclear
+parent public-plus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/KeratinocyteNuclear_RNA_4_plus.bw
+
+track GM12878_RNA_2_plus.bw
+shortLabel GM12878
+parent public-plus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/GM12878_RNA_2_plus.bw
+
+track public-minus
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel Public RNA-seq
+longLabel Public RNA-seq reads mapping to minus 
+
+track KeratinocyteCytosolic_RNA_4_minus.bw
+shortLabel KeratinocyteCytosolic
+parent public-minus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/KeratinocyteCytosolic_RNA_4_minus.bw
+
+track GM12878_RNA_1_minus.bw
+shortLabel GM12878
+parent public-minus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/GM12878_RNA_1_minus.bw
+
+track KeratinocyteCytosolic_RNA_3_minus.bw
+shortLabel KeratinocyteCytosolic
+parent public-minus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/KeratinocyteCytosolic_RNA_3_minus.bw
+
+track KeratinocyteNuclear_RNA_3_minus.bw
+shortLabel KeratinocyteNuclear
+parent public-minus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/KeratinocyteNuclear_RNA_3_minus.bw
+
+track KeratinocyteNuclear_RNA_4_minus.bw
+shortLabel KeratinocyteNuclear
+parent public-minus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/KeratinocyteNuclear_RNA_4_minus.bw
+
+track GM12878_RNA_4_minus.bw
+shortLabel GM12878
+parent public-minus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/GM12878_RNA_4_minus.bw
+
+track GM12878_RNA_3_minus.bw
+shortLabel GM12878
+parent public-minus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/GM12878_RNA_3_minus.bw
+
+track GM12878_RNA_2_minus.bw
+shortLabel GM12878
+parent public-minus on
+type bigWig 0 1000
+bigDataUrl Public-RNA-seq/GM12878_RNA_2_minus.bw
+
+track public-H3K27me3
+parent EpiPP on
+visibility dense
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale on
+viewLimits 0:20
+maxHeighPixels 100:16:8
+shortLabel Public ChIP-seq
+longLabel Public ChIP-seq reads mapping to H3K27me3 
+
+track GM12878_H3K27me3_2_unstranded.bw
+shortLabel GM12878
+parent public-H3K27me3 on
+type bigWig 0 1000
+bigDataUrl Public-H3K27me3/GM12878_H3K27me3_2_unstranded.bw
+
+track KeratinocytePrimary_H3K27me3_1_unstranded.bw
+shortLabel KeratinocytePrimary
+parent public-H3K27me3 on
+type bigWig 0 1000
+bigDataUrl Public-H3K27me3/KeratinocytePrimary_H3K27me3_1_unstranded.bw
+
+track KeratinocyteMaleFemale_H3K27me3_sum_unstranded.bw
+shortLabel KeratinocyteMaleFemale
+parent public-H3K27me3 on
+type bigWig 0 1000
+bigDataUrl Public-H3K27me3/KeratinocyteMaleFemale_H3K27me3_sum_unstranded.bw
+
+track GM12878_H3K27me3_1_unstranded.bw
+shortLabel GM12878
+parent public-H3K27me3 on
+type bigWig 0 1000
+bigDataUrl Public-H3K27me3/GM12878_H3K27me3_1_unstranded.bw
+
+track KeratinocytePrimary_H3K27me3_2_unstranded.bw
+shortLabel KeratinocytePrimary
+parent public-H3K27me3 on
+type bigWig 0 1000
+bigDataUrl Public-H3K27me3/KeratinocytePrimary_H3K27me3_2_unstranded.bw
+

@@ -1,0 +1,6 @@
+hub ECSeq
+shortLabel ECSeq data hub
+longLabel A transcriptional atlas of regional and laminar differences between medial and lateral entorhinal cortex during postnatal development of rats.
+genomesFile genomes.txt
+email endrebak85@gmail.com
+descriptionUrl ECSeq.html
