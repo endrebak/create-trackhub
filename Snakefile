@@ -24,7 +24,7 @@ rule genome_file:
     output:
         "{path}/genomes.txt"
     run:
-        contents = ["genome {genome}"]
+        contents = ["genome {genome}".format(genome=config["genomes"][0])]
         for genome in config["genomes"]:
             line = "trackDb {genome}/trackDb.txt".format(genome=genome)
             contents.append(line)
@@ -42,7 +42,7 @@ rule hub_file:
         contents = """hub {hub_name}
 shortLabel {short_hub_label}
 longLabel {long_hub_label}
-genomesFile {{genomes_txt}}
+genomesFile genomes.txt
 email {email}
 descriptionUrl {hub_description_url}"""
 
@@ -63,7 +63,7 @@ group regulation
 shortLabel {short_label_supertrack}
 longLabel {long_label_supertrack}"""
 
-        group_contents = """track forward
+        group_contents = """track {group}
 parent {supertrack} on
 visibility dense
 container multiWig
@@ -102,7 +102,8 @@ bigDataUrl {track_file}"""
             for _, row in df.iterrows():
                 d = row.to_dict()
                 track_file = d["File"]
-                track_name, extension = splitext(basename(track_file))
+                extension = splitext(basename(track_file))[1]
+                track_name = d["Name"]
                 color = d["Color"]
 
                 track_label = track_name.replace("_", " ")

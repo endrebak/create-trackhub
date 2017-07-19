@@ -1,6 +1,6 @@
 hub ECSeq
-shortLabel Epi++ data hub
-longLabel Epi++ project hub showing time series RNA-seq and H3K27me3, H3K4me3 and PolII ChIP-seq data from the human HaCaT keratinocye cell line.
-genomesFile /local/home/endrebak/code/biocore/create_trackhub/ECSeq/genomes.txt
-email endrebak@emailprovider.com
+shortLabel ECSeq
+longLabel Transcriptional atlas of layer II and deep layers in medial and lateral entorhinal cortex (EC) during postnatal development of rats.
+genomesFile genomes.txt
+email endrebak85@gmail.com
 descriptionUrl http://address_to_webpage_with_track.info
