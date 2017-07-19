@@ -1,0 +1,46 @@
+# basefolder to store hub in
+project_folder: /local/home/endrebak/code/biocore/create_trackhub/ECSeq
+
+# sample sheet
+sample_sheet: targets.txt
+
+# genomes:
+genomes:
+  - rn6
+
+################
+# hub settings #
+################
+
+hub_name: EpiPP
+short_hub_label: Epi++ data hub
+long_hub_label: Epi++ project hub showing time series RNA-seq and H3K27me3, H3K4me3 and PolII ChIP-seq data from the human HaCaT keratinocye cell line.
+email: endrebak@emailprovider.com
+
+# optional
+hub_description_url: http://address_to_webpage_with_track.info
+
+################
+# track header #
+################
+
+# can often be the same as the hub_name
+supertrack: EpiPP
+
+# Name that is unimportant?
+supertrack_group: regulation
+
+short_label_supertrack: HaCaT TT timeseries
+long_label_supertrack: RNAseq and ChIP-seq data for HaCaT cells synchronized by double thymidine block
+
+##################
+# group settings #
+##################
+
+group:
+  reverse:
+    short_label: HaCaT TT RNA-Seq
+    long_label: RNA-seq reads mapping to reverse
+  forward:
+    short_label: HaCaT TT RNA-Seq
+    long_label: RNA-seq reads mapping to forward

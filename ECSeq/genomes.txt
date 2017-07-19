@@ -1,2 +1,2 @@
-genome rn6
+genome {genome}
 trackDb rn6/trackDb.txt
