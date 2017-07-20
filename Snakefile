@@ -58,14 +58,14 @@ rule trackdb_file:
         "{project_folder}/{genome}/trackDb.txt"
     run:
         header_contents = """track {supertrack}
-superTrack on
+superTrack on show
 group regulation
 shortLabel {short_label_supertrack}
 longLabel {long_label_supertrack}"""
 
         group_contents = """track {group}
-parent {supertrack} on
-visibility dense
+parent {supertrack}
+superTrack {supertrack} on
 container multiWig
 aggregate none
 showSubtrackColorOnUi on
@@ -74,14 +74,16 @@ autoScale on
 viewLimits 0:20
 maxHeighPixels 100:16:8
 shortLabel {group_short_label}
-longLabel {group_long_label}"""
+longLabel {group_long_label}
+visibility dense"""
 
         track_contents = """track {track_name}
 shortLabel {track_label}
-parent {group} on
+parent {group}
 type {track_type}
 color {color}
-bigDataUrl {track_file}"""
+bigDataUrl {track_file}
+visibility dense"""
 
         groups = ss.Group.drop_duplicates()
         supertrack = config["supertrack"]

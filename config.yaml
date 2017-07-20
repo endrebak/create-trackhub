@@ -39,8 +39,8 @@ long_label_supertrack: RNA-seq data of sub-regions from micro-dissected rat ento
 
 group:
   reverse:
-    short_label: HaCaT TT RNA-Seq
-    long_label: RNA-seq reads mapping to reverse
+    short_label: EC RNA-Seq -
+    long_label: RNA-seq reads mapping to reverse strand
   forward:
-    short_label: HaCaT TT RNA-Seq
-    long_label: RNA-seq reads mapping to forward
+    short_label: EC RNA-Seq +
+    long_label: RNA-seq reads mapping to forward strand

@@ -1,12 +1,12 @@
 track ECSeq
-superTrack on
+superTrack on show
 group regulation
 shortLabel EC RNA-Seq
 longLabel RNA-seq data of sub-regions from micro-dissected rat entorhinal cortex (EC), sampled at postnatal day (P) P2, P9, P23, and P45.
 
 track forward
-parent ECSeq on
-visibility dense
+parent ECSeq
+superTrack ECSeq on
 container multiWig
 aggregate none
 showSubtrackColorOnUi on
@@ -14,460 +14,525 @@ type bigWig 0 1000
 autoScale on
 viewLimits 0:20
 maxHeighPixels 100:16:8
-shortLabel HaCaT TT RNA-Seq
-longLabel RNA-seq reads mapping to forward
+shortLabel EC RNA-Seq +
+longLabel RNA-seq reads mapping to forward strand
+visibility dense
 
-track 1_P02_II_Medial_forward
-shortLabel 1 P02 II Medial forward
-parent forward on
+track P02_II_Med_+_1
+shortLabel P02 II Med + 1
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/1_forward.bigwig
+visibility dense
 
-track 2_P02_Deep_Medial_forward
-shortLabel 2 P02 Deep Medial forward
-parent forward on
+track P02_Deep_Med_+_2
+shortLabel P02 Deep Med + 2
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/2_forward.bigwig
+visibility dense
 
-track 3_P02_II_Lateral_forward
-shortLabel 3 P02 II Lateral forward
-parent forward on
+track P02_II_Lat_+_3
+shortLabel P02 II Lat + 3
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/3_forward.bigwig
+visibility dense
 
-track 4_P02_Deep_Lateral_forward
-shortLabel 4 P02 Deep Lateral forward
-parent forward on
+track P02_Deep_Lat_+_4
+shortLabel P02 Deep Lat + 4
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/4_forward.bigwig
+visibility dense
 
-track 5_P02_II_Medial_forward
-shortLabel 5 P02 II Medial forward
-parent forward on
+track P02_II_Med_+_5
+shortLabel P02 II Med + 5
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/5_forward.bigwig
+visibility dense
 
-track 6_P02_Deep_Medial_forward
-shortLabel 6 P02 Deep Medial forward
-parent forward on
+track P02_Deep_Med_+_6
+shortLabel P02 Deep Med + 6
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/6_forward.bigwig
+visibility dense
 
-track 7_P02_II_Lateral_forward
-shortLabel 7 P02 II Lateral forward
-parent forward on
+track P02_II_Lat_+_7
+shortLabel P02 II Lat + 7
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/7_forward.bigwig
+visibility dense
 
-track 8_P02_Deep_Lateral_forward
-shortLabel 8 P02 Deep Lateral forward
-parent forward on
+track P02_Deep_Lat_+_8
+shortLabel P02 Deep Lat + 8
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/8_forward.bigwig
+visibility dense
 
-track 9_P02_II_Medial_forward
-shortLabel 9 P02 II Medial forward
-parent forward on
+track P02_II_Med_+_9
+shortLabel P02 II Med + 9
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/9_forward.bigwig
+visibility dense
 
-track 10_P02_Deep_Medial_forward
-shortLabel 10 P02 Deep Medial forward
-parent forward on
+track P02_Deep_Med_+_10
+shortLabel P02 Deep Med + 10
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/10_forward.bigwig
+visibility dense
 
-track 11_P02_II_Lateral_forward
-shortLabel 11 P02 II Lateral forward
-parent forward on
+track P02_II_Lat_+_11
+shortLabel P02 II Lat + 11
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/11_forward.bigwig
+visibility dense
 
-track 12_P02_Deep_Lateral_forward
-shortLabel 12 P02 Deep Lateral forward
-parent forward on
+track P02_Deep_Lat_+_12
+shortLabel P02 Deep Lat + 12
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/12_forward.bigwig
+visibility dense
 
-track 13_P02_II_Medial_forward
-shortLabel 13 P02 II Medial forward
-parent forward on
+track P02_II_Med_+_13
+shortLabel P02 II Med + 13
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/13_forward.bigwig
+visibility dense
 
-track 14_P02_Deep_Medial_forward
-shortLabel 14 P02 Deep Medial forward
-parent forward on
+track P02_Deep_Med_+_14
+shortLabel P02 Deep Med + 14
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/14_forward.bigwig
+visibility dense
 
-track 15_P02_II_Lateral_forward
-shortLabel 15 P02 II Lateral forward
-parent forward on
+track P02_II_Lat_+_15
+shortLabel P02 II Lat + 15
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/15_forward.bigwig
+visibility dense
 
-track 16_P02_Deep_Lateral_forward
-shortLabel 16 P02 Deep Lateral forward
-parent forward on
+track P02_Deep_Lat_+_16
+shortLabel P02 Deep Lat + 16
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/16_forward.bigwig
+visibility dense
 
-track 17_P02_II_Medial_forward
-shortLabel 17 P02 II Medial forward
-parent forward on
+track P02_II_Med_+_17
+shortLabel P02 II Med + 17
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/17_forward.bigwig
+visibility dense
 
-track 18_P02_Deep_Medial_forward
-shortLabel 18 P02 Deep Medial forward
-parent forward on
+track P02_Deep_Med_+_18
+shortLabel P02 Deep Med + 18
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/18_forward.bigwig
+visibility dense
 
-track 19_P02_II_Lateral_forward
-shortLabel 19 P02 II Lateral forward
-parent forward on
+track P02_II_Lat_+_19
+shortLabel P02 II Lat + 19
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/19_forward.bigwig
+visibility dense
 
-track 20_P02_Deep_Lateral_forward
-shortLabel 20 P02 Deep Lateral forward
-parent forward on
+track P02_Deep_Lat_+_20
+shortLabel P02 Deep Lat + 20
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/20_forward.bigwig
+visibility dense
 
-track 21_P09_II_Medial_forward
-shortLabel 21 P09 II Medial forward
-parent forward on
+track P09_II_Med_+_21
+shortLabel P09 II Med + 21
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/21_forward.bigwig
+visibility dense
 
-track 22_P09_Deep_Medial_forward
-shortLabel 22 P09 Deep Medial forward
-parent forward on
+track P09_Deep_Med_+_22
+shortLabel P09 Deep Med + 22
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/22_forward.bigwig
+visibility dense
 
-track 23_P09_II_Lateral_forward
-shortLabel 23 P09 II Lateral forward
-parent forward on
+track P09_II_Lat_+_23
+shortLabel P09 II Lat + 23
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/23_forward.bigwig
+visibility dense
 
-track 24_P09_Deep_Lateral_forward
-shortLabel 24 P09 Deep Lateral forward
-parent forward on
+track P09_Deep_Lat_+_24
+shortLabel P09 Deep Lat + 24
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/24_forward.bigwig
+visibility dense
 
-track 25_P09_II_Medial_forward
-shortLabel 25 P09 II Medial forward
-parent forward on
+track P09_II_Med_+_25
+shortLabel P09 II Med + 25
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/25_forward.bigwig
+visibility dense
 
-track 26_P09_Deep_Medial_forward
-shortLabel 26 P09 Deep Medial forward
-parent forward on
+track P09_Deep_Med_+_26
+shortLabel P09 Deep Med + 26
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/26_forward.bigwig
+visibility dense
 
-track 27_P09_II_Lateral_forward
-shortLabel 27 P09 II Lateral forward
-parent forward on
+track P09_II_Lat_+_27
+shortLabel P09 II Lat + 27
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/27_forward.bigwig
+visibility dense
 
-track 28_P09_Deep_Lateral_forward
-shortLabel 28 P09 Deep Lateral forward
-parent forward on
+track P09_Deep_Lat_+_28
+shortLabel P09 Deep Lat + 28
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/28_forward.bigwig
+visibility dense
 
-track 29_P09_II_Medial_forward
-shortLabel 29 P09 II Medial forward
-parent forward on
+track P09_II_Med_+_29
+shortLabel P09 II Med + 29
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/29_forward.bigwig
+visibility dense
 
-track 30_P09_Deep_Medial_forward
-shortLabel 30 P09 Deep Medial forward
-parent forward on
+track P09_Deep_Med_+_30
+shortLabel P09 Deep Med + 30
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/30_forward.bigwig
+visibility dense
 
-track 31_P09_II_Lateral_forward
-shortLabel 31 P09 II Lateral forward
-parent forward on
+track P09_II_Lat_+_31
+shortLabel P09 II Lat + 31
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/31_forward.bigwig
+visibility dense
 
-track 32_P09_Deep_Lateral_forward
-shortLabel 32 P09 Deep Lateral forward
-parent forward on
+track P09_Deep_Lat_+_32
+shortLabel P09 Deep Lat + 32
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/32_forward.bigwig
+visibility dense
 
-track 33_P09_II_Medial_forward
-shortLabel 33 P09 II Medial forward
-parent forward on
+track P09_II_Med_+_33
+shortLabel P09 II Med + 33
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/33_forward.bigwig
+visibility dense
 
-track 34_P09_Deep_Medial_forward
-shortLabel 34 P09 Deep Medial forward
-parent forward on
+track P09_Deep_Med_+_34
+shortLabel P09 Deep Med + 34
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/34_forward.bigwig
+visibility dense
 
-track 35_P09_II_Lateral_forward
-shortLabel 35 P09 II Lateral forward
-parent forward on
+track P09_II_Lat_+_35
+shortLabel P09 II Lat + 35
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/35_forward.bigwig
+visibility dense
 
-track 36_P09_Deep_Lateral_forward
-shortLabel 36 P09 Deep Lateral forward
-parent forward on
+track P09_Deep_Lat_+_36
+shortLabel P09 Deep Lat + 36
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/36_forward.bigwig
+visibility dense
 
-track 37_P23_II_Medial_forward
-shortLabel 37 P23 II Medial forward
-parent forward on
+track P23_II_Med_+_37
+shortLabel P23 II Med + 37
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/37_forward.bigwig
+visibility dense
 
-track 38_P23_Deep_Medial_forward
-shortLabel 38 P23 Deep Medial forward
-parent forward on
+track P23_Deep_Med_+_38
+shortLabel P23 Deep Med + 38
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/38_forward.bigwig
+visibility dense
 
-track 39_P23_II_Lateral_forward
-shortLabel 39 P23 II Lateral forward
-parent forward on
+track P23_II_Lat_+_39
+shortLabel P23 II Lat + 39
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/39_forward.bigwig
+visibility dense
 
-track 40_P23_Deep_Lateral_forward
-shortLabel 40 P23 Deep Lateral forward
-parent forward on
+track P23_Deep_Lat_+_40
+shortLabel P23 Deep Lat + 40
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/40_forward.bigwig
+visibility dense
 
-track 41_P23_II_Medial_forward
-shortLabel 41 P23 II Medial forward
-parent forward on
+track P23_II_Med_+_41
+shortLabel P23 II Med + 41
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/41_forward.bigwig
+visibility dense
 
-track 42_P23_Deep_Medial_forward
-shortLabel 42 P23 Deep Medial forward
-parent forward on
+track P23_Deep_Med_+_42
+shortLabel P23 Deep Med + 42
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/42_forward.bigwig
+visibility dense
 
-track 43_P23_II_Lateral_forward
-shortLabel 43 P23 II Lateral forward
-parent forward on
+track P23_II_Lat_+_43
+shortLabel P23 II Lat + 43
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/43_forward.bigwig
+visibility dense
 
-track 44_P23_Deep_Lateral_forward
-shortLabel 44 P23 Deep Lateral forward
-parent forward on
+track P23_Deep_Lat_+_44
+shortLabel P23 Deep Lat + 44
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/44_forward.bigwig
+visibility dense
 
-track 45_P23_II_Medial_forward
-shortLabel 45 P23 II Medial forward
-parent forward on
+track P23_II_Med_+_45
+shortLabel P23 II Med + 45
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/45_forward.bigwig
+visibility dense
 
-track 46_P23_Deep_Medial_forward
-shortLabel 46 P23 Deep Medial forward
-parent forward on
+track P23_Deep_Med_+_46
+shortLabel P23 Deep Med + 46
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/46_forward.bigwig
+visibility dense
 
-track 47_P23_II_Lateral_forward
-shortLabel 47 P23 II Lateral forward
-parent forward on
+track P23_II_Lat_+_47
+shortLabel P23 II Lat + 47
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/47_forward.bigwig
+visibility dense
 
-track 48_P23_Deep_Lateral_forward
-shortLabel 48 P23 Deep Lateral forward
-parent forward on
+track P23_Deep_Lat_+_48
+shortLabel P23 Deep Lat + 48
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/48_forward.bigwig
+visibility dense
 
-track 49_P45_II_Medial_forward
-shortLabel 49 P45 II Medial forward
-parent forward on
+track P45_II_Med_+_49
+shortLabel P45 II Med + 49
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/49_forward.bigwig
+visibility dense
 
-track 50_P45_Deep_Medial_forward
-shortLabel 50 P45 Deep Medial forward
-parent forward on
+track P45_Deep_Med_+_50
+shortLabel P45 Deep Med + 50
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/50_forward.bigwig
+visibility dense
 
-track 51_P45_II_Lateral_forward
-shortLabel 51 P45 II Lateral forward
-parent forward on
+track P45_II_Lat_+_51
+shortLabel P45 II Lat + 51
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/51_forward.bigwig
+visibility dense
 
-track 52_P45_Deep_Lateral_forward
-shortLabel 52 P45 Deep Lateral forward
-parent forward on
+track P45_Deep_Lat_+_52
+shortLabel P45 Deep Lat + 52
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/52_forward.bigwig
+visibility dense
 
-track 53_P45_II_Medial_forward
-shortLabel 53 P45 II Medial forward
-parent forward on
+track P45_II_Med_+_53
+shortLabel P45 II Med + 53
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/53_forward.bigwig
+visibility dense
 
-track 54_P45_Deep_Medial_forward
-shortLabel 54 P45 Deep Medial forward
-parent forward on
+track P45_Deep_Med_+_54
+shortLabel P45 Deep Med + 54
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/54_forward.bigwig
+visibility dense
 
-track 55_P45_II_Lateral_forward
-shortLabel 55 P45 II Lateral forward
-parent forward on
+track P45_II_Lat_+_55
+shortLabel P45 II Lat + 55
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/55_forward.bigwig
+visibility dense
 
-track 56_P45_Deep_Lateral_forward
-shortLabel 56 P45 Deep Lateral forward
-parent forward on
+track P45_Deep_Lat_+_56
+shortLabel P45 Deep Lat + 56
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/56_forward.bigwig
+visibility dense
 
-track 57_P45_II_Medial_forward
-shortLabel 57 P45 II Medial forward
-parent forward on
+track P45_II_Med_+_57
+shortLabel P45 II Med + 57
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/57_forward.bigwig
+visibility dense
 
-track 58_P45_Deep_Medial_forward
-shortLabel 58 P45 Deep Medial forward
-parent forward on
+track P45_Deep_Med_+_58
+shortLabel P45 Deep Med + 58
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/58_forward.bigwig
+visibility dense
 
-track 59_P45_II_Lateral_forward
-shortLabel 59 P45 II Lateral forward
-parent forward on
+track P45_II_Lat_+_59
+shortLabel P45 II Lat + 59
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/59_forward.bigwig
+visibility dense
 
-track 60_P45_Deep_Lateral_forward
-shortLabel 60 P45 Deep Lateral forward
-parent forward on
+track P45_Deep_Lat_+_60
+shortLabel P45 Deep Lat + 60
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/60_forward.bigwig
+visibility dense
 
-track 61_P45_II_Medial_forward
-shortLabel 61 P45 II Medial forward
-parent forward on
+track P45_II_Med_+_61
+shortLabel P45 II Med + 61
+parent forward
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/61_forward.bigwig
+visibility dense
 
-track 62_P45_Deep_Medial_forward
-shortLabel 62 P45 Deep Medial forward
-parent forward on
+track P45_Deep_Med_+_62
+shortLabel P45 Deep Med + 62
+parent forward
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/62_forward.bigwig
+visibility dense
 
-track 63_P45_II_Lateral_forward
-shortLabel 63 P45 II Lateral forward
-parent forward on
+track P45_II_Lat_+_63
+shortLabel P45 II Lat + 63
+parent forward
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/63_forward.bigwig
+visibility dense
 
-track 64_P45_Deep_Lateral_forward
-shortLabel 64 P45 Deep Lateral forward
-parent forward on
+track P45_Deep_Lat_+_64
+shortLabel P45 Deep Lat + 64
+parent forward
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/64_forward.bigwig
+visibility dense
 
 track reverse
-parent ECSeq on
-visibility dense
+parent ECSeq
+superTrack ECSeq on
 container multiWig
 aggregate none
 showSubtrackColorOnUi on
@@ -475,453 +540,518 @@ type bigWig 0 1000
 autoScale on
 viewLimits 0:20
 maxHeighPixels 100:16:8
-shortLabel HaCaT TT RNA-Seq
-longLabel RNA-seq reads mapping to reverse
+shortLabel EC RNA-Seq -
+longLabel RNA-seq reads mapping to reverse strand
+visibility dense
 
-track 1_P02_II_Medial_reverse
-shortLabel 1 P02 II Medial reverse
-parent reverse on
+track P02_II_Med_-_1
+shortLabel P02 II Med - 1
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/1_reverse.bigwig
+visibility dense
 
-track 2_P02_Deep_Medial_reverse
-shortLabel 2 P02 Deep Medial reverse
-parent reverse on
+track P02_Deep_Med_-_2
+shortLabel P02 Deep Med - 2
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/2_reverse.bigwig
+visibility dense
 
-track 3_P02_II_Lateral_reverse
-shortLabel 3 P02 II Lateral reverse
-parent reverse on
+track P02_II_Lat_-_3
+shortLabel P02 II Lat - 3
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/3_reverse.bigwig
+visibility dense
 
-track 4_P02_Deep_Lateral_reverse
-shortLabel 4 P02 Deep Lateral reverse
-parent reverse on
+track P02_Deep_Lat_-_4
+shortLabel P02 Deep Lat - 4
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/4_reverse.bigwig
+visibility dense
 
-track 5_P02_II_Medial_reverse
-shortLabel 5 P02 II Medial reverse
-parent reverse on
+track P02_II_Med_-_5
+shortLabel P02 II Med - 5
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/5_reverse.bigwig
+visibility dense
 
-track 6_P02_Deep_Medial_reverse
-shortLabel 6 P02 Deep Medial reverse
-parent reverse on
+track P02_Deep_Med_-_6
+shortLabel P02 Deep Med - 6
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/6_reverse.bigwig
+visibility dense
 
-track 7_P02_II_Lateral_reverse
-shortLabel 7 P02 II Lateral reverse
-parent reverse on
+track P02_II_Lat_-_7
+shortLabel P02 II Lat - 7
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/7_reverse.bigwig
+visibility dense
 
-track 8_P02_Deep_Lateral_reverse
-shortLabel 8 P02 Deep Lateral reverse
-parent reverse on
+track P02_Deep_Lat_-_8
+shortLabel P02 Deep Lat - 8
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/8_reverse.bigwig
+visibility dense
 
-track 9_P02_II_Medial_reverse
-shortLabel 9 P02 II Medial reverse
-parent reverse on
+track P02_II_Med_-_9
+shortLabel P02 II Med - 9
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/9_reverse.bigwig
+visibility dense
 
-track 10_P02_Deep_Medial_reverse
-shortLabel 10 P02 Deep Medial reverse
-parent reverse on
+track P02_Deep_Med_-_10
+shortLabel P02 Deep Med - 10
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/10_reverse.bigwig
+visibility dense
 
-track 11_P02_II_Lateral_reverse
-shortLabel 11 P02 II Lateral reverse
-parent reverse on
+track P02_II_Lat_-_11
+shortLabel P02 II Lat - 11
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/11_reverse.bigwig
+visibility dense
 
-track 12_P02_Deep_Lateral_reverse
-shortLabel 12 P02 Deep Lateral reverse
-parent reverse on
+track P02_Deep_Lat_-_12
+shortLabel P02 Deep Lat - 12
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/12_reverse.bigwig
+visibility dense
 
-track 13_P02_II_Medial_reverse
-shortLabel 13 P02 II Medial reverse
-parent reverse on
+track P02_II_Med_-_13
+shortLabel P02 II Med - 13
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/13_reverse.bigwig
+visibility dense
 
-track 14_P02_Deep_Medial_reverse
-shortLabel 14 P02 Deep Medial reverse
-parent reverse on
+track P02_Deep_Med_-_14
+shortLabel P02 Deep Med - 14
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/14_reverse.bigwig
+visibility dense
 
-track 15_P02_II_Lateral_reverse
-shortLabel 15 P02 II Lateral reverse
-parent reverse on
+track P02_II_Lat_-_15
+shortLabel P02 II Lat - 15
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/15_reverse.bigwig
+visibility dense
 
-track 16_P02_Deep_Lateral_reverse
-shortLabel 16 P02 Deep Lateral reverse
-parent reverse on
+track P02_Deep_Lat_-_16
+shortLabel P02 Deep Lat - 16
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/16_reverse.bigwig
+visibility dense
 
-track 17_P02_II_Medial_reverse
-shortLabel 17 P02 II Medial reverse
-parent reverse on
+track P02_II_Med_-_17
+shortLabel P02 II Med - 17
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/17_reverse.bigwig
+visibility dense
 
-track 18_P02_Deep_Medial_reverse
-shortLabel 18 P02 Deep Medial reverse
-parent reverse on
+track P02_Deep_Med_-_18
+shortLabel P02 Deep Med - 18
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/18_reverse.bigwig
+visibility dense
 
-track 19_P02_II_Lateral_reverse
-shortLabel 19 P02 II Lateral reverse
-parent reverse on
+track P02_II_Lat_-_19
+shortLabel P02 II Lat - 19
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/19_reverse.bigwig
+visibility dense
 
-track 20_P02_Deep_Lateral_reverse
-shortLabel 20 P02 Deep Lateral reverse
-parent reverse on
+track P02_Deep_Lat_-_20
+shortLabel P02 Deep Lat - 20
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/20_reverse.bigwig
+visibility dense
 
-track 21_P09_II_Medial_reverse
-shortLabel 21 P09 II Medial reverse
-parent reverse on
+track P09_II_Med_-_21
+shortLabel P09 II Med - 21
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/21_reverse.bigwig
+visibility dense
 
-track 22_P09_Deep_Medial_reverse
-shortLabel 22 P09 Deep Medial reverse
-parent reverse on
+track P09_Deep_Med_-_22
+shortLabel P09 Deep Med - 22
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/22_reverse.bigwig
+visibility dense
 
-track 23_P09_II_Lateral_reverse
-shortLabel 23 P09 II Lateral reverse
-parent reverse on
+track P09_II_Lat_-_23
+shortLabel P09 II Lat - 23
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/23_reverse.bigwig
+visibility dense
 
-track 24_P09_Deep_Lateral_reverse
-shortLabel 24 P09 Deep Lateral reverse
-parent reverse on
+track P09_Deep_Lat_-_24
+shortLabel P09 Deep Lat - 24
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/24_reverse.bigwig
+visibility dense
 
-track 25_P09_II_Medial_reverse
-shortLabel 25 P09 II Medial reverse
-parent reverse on
+track P09_II_Med_-_25
+shortLabel P09 II Med - 25
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/25_reverse.bigwig
+visibility dense
 
-track 26_P09_Deep_Medial_reverse
-shortLabel 26 P09 Deep Medial reverse
-parent reverse on
+track P09_Deep_Med_-_26
+shortLabel P09 Deep Med - 26
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/26_reverse.bigwig
+visibility dense
 
-track 27_P09_II_Lateral_reverse
-shortLabel 27 P09 II Lateral reverse
-parent reverse on
+track P09_II_Lat_-_27
+shortLabel P09 II Lat - 27
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/27_reverse.bigwig
+visibility dense
 
-track 28_P09_Deep_Lateral_reverse
-shortLabel 28 P09 Deep Lateral reverse
-parent reverse on
+track P09_Deep_Lat_-_28
+shortLabel P09 Deep Lat - 28
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/28_reverse.bigwig
+visibility dense
 
-track 29_P09_II_Medial_reverse
-shortLabel 29 P09 II Medial reverse
-parent reverse on
+track P09_II_Med_-_29
+shortLabel P09 II Med - 29
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/29_reverse.bigwig
+visibility dense
 
-track 30_P09_Deep_Medial_reverse
-shortLabel 30 P09 Deep Medial reverse
-parent reverse on
+track P09_Deep_Med_-_30
+shortLabel P09 Deep Med - 30
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/30_reverse.bigwig
+visibility dense
 
-track 31_P09_II_Lateral_reverse
-shortLabel 31 P09 II Lateral reverse
-parent reverse on
+track P09_II_Lat_-_31
+shortLabel P09 II Lat - 31
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/31_reverse.bigwig
+visibility dense
 
-track 32_P09_Deep_Lateral_reverse
-shortLabel 32 P09 Deep Lateral reverse
-parent reverse on
+track P09_Deep_Lat_-_32
+shortLabel P09 Deep Lat - 32
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/32_reverse.bigwig
+visibility dense
 
-track 33_P09_II_Medial_reverse
-shortLabel 33 P09 II Medial reverse
-parent reverse on
+track P09_II_Med_-_33
+shortLabel P09 II Med - 33
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/33_reverse.bigwig
+visibility dense
 
-track 34_P09_Deep_Medial_reverse
-shortLabel 34 P09 Deep Medial reverse
-parent reverse on
+track P09_Deep_Med_-_34
+shortLabel P09 Deep Med - 34
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/34_reverse.bigwig
+visibility dense
 
-track 35_P09_II_Lateral_reverse
-shortLabel 35 P09 II Lateral reverse
-parent reverse on
+track P09_II_Lat_-_35
+shortLabel P09 II Lat - 35
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/35_reverse.bigwig
+visibility dense
 
-track 36_P09_Deep_Lateral_reverse
-shortLabel 36 P09 Deep Lateral reverse
-parent reverse on
+track P09_Deep_Lat_-_36
+shortLabel P09 Deep Lat - 36
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/36_reverse.bigwig
+visibility dense
 
-track 37_P23_II_Medial_reverse
-shortLabel 37 P23 II Medial reverse
-parent reverse on
+track P23_II_Med_-_37
+shortLabel P23 II Med - 37
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/37_reverse.bigwig
+visibility dense
 
-track 38_P23_Deep_Medial_reverse
-shortLabel 38 P23 Deep Medial reverse
-parent reverse on
+track P23_Deep_Med_-_38
+shortLabel P23 Deep Med - 38
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/38_reverse.bigwig
+visibility dense
 
-track 39_P23_II_Lateral_reverse
-shortLabel 39 P23 II Lateral reverse
-parent reverse on
+track P23_II_Lat_-_39
+shortLabel P23 II Lat - 39
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/39_reverse.bigwig
+visibility dense
 
-track 40_P23_Deep_Lateral_reverse
-shortLabel 40 P23 Deep Lateral reverse
-parent reverse on
+track P23_Deep_Lat_-_40
+shortLabel P23 Deep Lat - 40
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/40_reverse.bigwig
+visibility dense
 
-track 41_P23_II_Medial_reverse
-shortLabel 41 P23 II Medial reverse
-parent reverse on
+track P23_II_Med_-_41
+shortLabel P23 II Med - 41
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/41_reverse.bigwig
+visibility dense
 
-track 42_P23_Deep_Medial_reverse
-shortLabel 42 P23 Deep Medial reverse
-parent reverse on
+track P23_Deep_Med_-_42
+shortLabel P23 Deep Med - 42
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/42_reverse.bigwig
+visibility dense
 
-track 43_P23_II_Lateral_reverse
-shortLabel 43 P23 II Lateral reverse
-parent reverse on
+track P23_II_Lat_-_43
+shortLabel P23 II Lat - 43
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/43_reverse.bigwig
+visibility dense
 
-track 44_P23_Deep_Lateral_reverse
-shortLabel 44 P23 Deep Lateral reverse
-parent reverse on
+track P23_Deep_Lat_-_44
+shortLabel P23 Deep Lat - 44
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/44_reverse.bigwig
+visibility dense
 
-track 45_P23_II_Medial_reverse
-shortLabel 45 P23 II Medial reverse
-parent reverse on
+track P23_II_Med_-_45
+shortLabel P23 II Med - 45
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/45_reverse.bigwig
+visibility dense
 
-track 46_P23_Deep_Medial_reverse
-shortLabel 46 P23 Deep Medial reverse
-parent reverse on
+track P23_Deep_Med_-_46
+shortLabel P23 Deep Med - 46
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/46_reverse.bigwig
+visibility dense
 
-track 47_P23_II_Lateral_reverse
-shortLabel 47 P23 II Lateral reverse
-parent reverse on
+track P23_II_Lat_-_47
+shortLabel P23 II Lat - 47
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/47_reverse.bigwig
+visibility dense
 
-track 48_P23_Deep_Lateral_reverse
-shortLabel 48 P23 Deep Lateral reverse
-parent reverse on
+track P23_Deep_Lat_-_48
+shortLabel P23 Deep Lat - 48
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/48_reverse.bigwig
+visibility dense
 
-track 49_P45_II_Medial_reverse
-shortLabel 49 P45 II Medial reverse
-parent reverse on
+track P45_II_Med_-_49
+shortLabel P45 II Med - 49
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/49_reverse.bigwig
+visibility dense
 
-track 50_P45_Deep_Medial_reverse
-shortLabel 50 P45 Deep Medial reverse
-parent reverse on
+track P45_Deep_Med_-_50
+shortLabel P45 Deep Med - 50
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/50_reverse.bigwig
+visibility dense
 
-track 51_P45_II_Lateral_reverse
-shortLabel 51 P45 II Lateral reverse
-parent reverse on
+track P45_II_Lat_-_51
+shortLabel P45 II Lat - 51
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/51_reverse.bigwig
+visibility dense
 
-track 52_P45_Deep_Lateral_reverse
-shortLabel 52 P45 Deep Lateral reverse
-parent reverse on
+track P45_Deep_Lat_-_52
+shortLabel P45 Deep Lat - 52
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/52_reverse.bigwig
+visibility dense
 
-track 53_P45_II_Medial_reverse
-shortLabel 53 P45 II Medial reverse
-parent reverse on
+track P45_II_Med_-_53
+shortLabel P45 II Med - 53
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/53_reverse.bigwig
+visibility dense
 
-track 54_P45_Deep_Medial_reverse
-shortLabel 54 P45 Deep Medial reverse
-parent reverse on
+track P45_Deep_Med_-_54
+shortLabel P45 Deep Med - 54
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/54_reverse.bigwig
+visibility dense
 
-track 55_P45_II_Lateral_reverse
-shortLabel 55 P45 II Lateral reverse
-parent reverse on
+track P45_II_Lat_-_55
+shortLabel P45 II Lat - 55
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/55_reverse.bigwig
+visibility dense
 
-track 56_P45_Deep_Lateral_reverse
-shortLabel 56 P45 Deep Lateral reverse
-parent reverse on
+track P45_Deep_Lat_-_56
+shortLabel P45 Deep Lat - 56
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/56_reverse.bigwig
+visibility dense
 
-track 57_P45_II_Medial_reverse
-shortLabel 57 P45 II Medial reverse
-parent reverse on
+track P45_II_Med_-_57
+shortLabel P45 II Med - 57
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/57_reverse.bigwig
+visibility dense
 
-track 58_P45_Deep_Medial_reverse
-shortLabel 58 P45 Deep Medial reverse
-parent reverse on
+track P45_Deep_Med_-_58
+shortLabel P45 Deep Med - 58
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/58_reverse.bigwig
+visibility dense
 
-track 59_P45_II_Lateral_reverse
-shortLabel 59 P45 II Lateral reverse
-parent reverse on
+track P45_II_Lat_-_59
+shortLabel P45 II Lat - 59
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/59_reverse.bigwig
+visibility dense
 
-track 60_P45_Deep_Lateral_reverse
-shortLabel 60 P45 Deep Lateral reverse
-parent reverse on
+track P45_Deep_Lat_-_60
+shortLabel P45 Deep Lat - 60
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/60_reverse.bigwig
+visibility dense
 
-track 61_P45_II_Medial_reverse
-shortLabel 61 P45 II Medial reverse
-parent reverse on
+track P45_II_Med_-_61
+shortLabel P45 II Med - 61
+parent reverse
 type bigWig 0 1000
 color 55,51,255
 bigDataUrl bigwigs/61_reverse.bigwig
+visibility dense
 
-track 62_P45_Deep_Medial_reverse
-shortLabel 62 P45 Deep Medial reverse
-parent reverse on
+track P45_Deep_Med_-_62
+shortLabel P45 Deep Med - 62
+parent reverse
 type bigWig 0 1000
 color 128,255,0
 bigDataUrl bigwigs/62_reverse.bigwig
+visibility dense
 
-track 63_P45_II_Lateral_reverse
-shortLabel 63 P45 II Lateral reverse
-parent reverse on
+track P45_II_Lat_-_63
+shortLabel P45 II Lat - 63
+parent reverse
 type bigWig 0 1000
 color 51,255,255
 bigDataUrl bigwigs/63_reverse.bigwig
+visibility dense
 
-track 64_P45_Deep_Lateral_reverse
-shortLabel 64 P45 Deep Lateral reverse
-parent reverse on
+track P45_Deep_Lat_-_64
+shortLabel P45 Deep Lat - 64
+parent reverse
 type bigWig 0 1000
 color 255,51,51
 bigDataUrl bigwigs/64_reverse.bigwig
+visibility dense
